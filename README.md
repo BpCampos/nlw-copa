@@ -31,7 +31,7 @@ These project was developd with the following thecnologies:
 
 ## 💻 Project
 
-The World cup calendar is a project to recreat the World Cup game schedule and keep track of the games
+The World cup calendar is a project to recreat the World Cup game schedule and keep track of the games. You can check the project [HERE](https://bpcampos.github.io/nlw-copa/)
 
 ## 🔖 Layout
 
