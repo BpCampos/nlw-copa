@@ -7,7 +7,7 @@ let createGame = (player1, hour, player2) => `
 `;
 
 let createCard = (date, day, games) =>
-`
+  `
 <div class="card">
   <div class="date">
     <h2>${date}</h2>
@@ -17,7 +17,7 @@ let createCard = (date, day, games) =>
     ${games}
   </ul>
 </div>
-`
+`;
 
 document.querySelector(".cards").innerHTML =
   createCard(
@@ -37,12 +37,12 @@ document.querySelector(".cards").innerHTML =
       createGame("portugal", "16:00", "uruguai")
   ) +
   createCard(
-    "28/11",
-    "SEGUNDA",
-    createGame("camaroes", "07:00", "servia") +
-      createGame("coreia-do-sul", "10:00", "ghana") +
-      createGame("brasil", "13:00", "switzerland") +
-      createGame("portugal", "16:00", "uruguai")
+    "02/12",
+    "SEXTA",
+    createGame("coreia-do-sul", "12:00", "portugal") +
+      createGame("uruguai", "12:00", "ghana") +
+      createGame("brasil", "16:00", "camaroes") +
+      createGame("servia", "16:00", "switzerland")
   ) +
   createCard(
     "28/11",
